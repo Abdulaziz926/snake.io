@@ -25,7 +25,7 @@ let SEGMENT = 14 // segment diameter px (base)
 const INITIAL_LENGTH = 9
 let SPAWN_RADIUS = 30 // tiles distance for initial foods
 const FOOD_COUNT = 24
-let BOT_COUNT = 30 // number of bots
+let BOT_COUNT = 20 // number of bots
 const MAX_ORBS_ON_DEATH = 30
 
 /* Game state */
@@ -591,3 +591,4 @@ camera.x = snakes[0].pos.x
 camera.y = snakes[0].pos.y
 playerScore = 0
 scoreEl.textContent = playerScore
+
