@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Snake.io</title>
+	<link rel="icon" href="ar_logo_circle.png">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="ui-top">
+		<h1>Snake.io</h1>
+		<div id="score">0</div>
+	</div>
+
+	<div id="game-wrap">
+		<canvas id="game"></canvas>
+
+		<!-- Joystick -->
+		<div id="joystick" aria-hidden="true">
+			<div id="joy-base">
+				<div id="joy-knob">●</div>
+			</div>
+		</div>
+
+		<!-- Blur overlay for score-milestone -->
+		<div id="milestone-overlay" class="hidden">
+			<div id="milestone-text"></div>
+		</div>
+	</div>
+
+	<div class="help">Arrow keys or joystick — eat orbs. Bots roam; head-touch body kills. </div>
+
+	<!-- Footer / link box -->
+	<footer id="footer-link">
+		<a id="your-link" href="https://github.com/Abdulaziz926" target="_blank" rel="noopener">by Rakhmanov Abdulaziz</a>
+	</footer>
+
+	<script src="game.js"></script>
+</body>
+
+</html>
